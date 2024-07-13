@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/idDate1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/tvImage5"
@@ -26,8 +26,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="60dp"
             android:layout_marginTop="8dp"
-            android:text="Salary"
-            android:textSize="20dp"
+            tools:text="Salary"
+            tools:textSize="20dp"
             app:layout_constraintStart_toEndOf="@+id/tvImage5"
             app:layout_constraintTop_toTopOf="@+id/tvImage5" />
 
@@ -36,8 +36,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="56dp"
-            android:text="KES 40000"
-            android:textSize="20dp"
+            tools:text="KES 40000"
+            tools:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="@+id/tvImage5"
             app:layout_constraintStart_toEndOf="@+id/tvImage5"
             app:layout_constraintTop_toBottomOf="@+id/tvSalary"
@@ -47,8 +47,8 @@
             android:id="@+id/idSalaryDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1st July 2024"
-            android:textSize="20dp"
+            tools:text="1st July 2024"
+            tools:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="@+id/idSalaryAmount"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.731"
